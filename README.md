@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Clone Youtube Music
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Clone of the Youtube Music 
+
+# About project:
+
+Basically we will have a platform similar to Youtube Music in its static form. React was used with Typescript and Unit Tests using TDD.
+
+# Technologies:
+
+Sass  
+Components   
+Typescript  
+React Testing Library  
+Vercel  
+ReactJs  
+
+# Link of Website:
+
+https://clone-interface-ytb-music-6jr92otzd-hirtonsantos.vercel.app/
+
 
 ## Available Scripts
 
