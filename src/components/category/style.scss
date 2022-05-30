@@ -1,0 +1,76 @@
+.container-category{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 10px;
+    user-select: auto;
+    span {
+        h1 {
+            font-family: YouTube Sans, Roboto, Noto Naskh Arabic UI, Arial, sans-serif;
+        }
+    }
+    .category-list {
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+        display: flex;
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            text-align: center;     
+        }
+        img {
+            border-radius: 3px;
+            position: relative;
+            width: 190px;
+            margin-bottom: 10px;
+        }
+        span {
+            font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+        }
+        div .title {
+            color: white;
+            text-align: start;
+        }
+        div .artists {
+            color: rgba(255, 255, 255, 0.7019607843);
+            font-size: 13px;
+            text-align: start;
+        }
+        svg{
+            display: none;
+        }
+        div:hover{
+            svg {
+                display: block;
+                position: absolute;
+                margin-left: 100px;
+                width: 122px;
+                height: 32px;
+                margin-top: 10px;
+            }
+            .play-svg{
+                margin-top: 135px;
+                color: black;
+                opacity: 75%;
+            }
+            .play-svg:hover{
+                color: black;
+                opacity: 100%;
+            }
+        }
+    }
+    @media(min-width: 910px){
+        .category-list {
+            overflow: unset;
+            justify-content: center;
+        }
+        span {
+            margin-left: 0px;
+        }
+    }
+}

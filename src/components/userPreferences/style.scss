@@ -1,0 +1,59 @@
+.container-user {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 10px;
+    svg{
+        display: block;
+        height: 100%;
+        width: 30px;
+        color: #fff;
+        margin-right: 15px;
+    }
+    h2 {
+        font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+        font-size: var(--ytmusic-responsive-font-size);
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #aaa;
+        margin: 0 2 2px;
+        margin-bottom: 5px;
+    }
+    h1 {
+        font-family: YouTube Sans, Roboto, Noto Naskh Arabic UI, Arial, sans-serif;
+        margin: 0;
+    }
+    section {
+        display: flex;
+        align-items: center;
+    }
+
+    .preferences-list {
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+        margin-top: 20px;
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            text-align: center;     
+        }
+        img {
+            border-radius: 50%;
+            width: 130px;
+            margin-bottom: 10px;
+        }
+        span {
+            font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+        }
+    }
+    @media(min-width: 910px){
+        .preferences-list {
+            overflow: unset;
+        }
+    }
+}
