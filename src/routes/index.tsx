@@ -9,21 +9,11 @@ function Routes(){
     return(
         <div>
             <Switch>
-                <Route exact path={"/"}>
-                    <Home/>  
-                </Route>
-                <Route path={"/Library"}>
-                    <Library/>
-                </Route>
-                <Route path={"/Explore"}>
-                    <Explore/>
-                </Route>
-                <Route path={"/Upgrade"}>
-                    <Upgrade/>
-                </Route>
-                <Route path={"/Search"}>
-                    <Search/>
-                </Route>
+                <Route exact path="/" component={Home} />
+                <Route path="/Library" component={Library} />
+                <Route path="/Explore" component={Explore} />
+                <Route path="/Upgrade" component={Upgrade} />
+                <Route path="/Search" component={Search} />
             </Switch>
         </div>
     )
