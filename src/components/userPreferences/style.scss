@@ -36,11 +36,25 @@
         overflow: scroll;
         width: 100%;
         margin-top: 20px;
-        div {
+        
+        a {
             display: flex;
             flex-direction: column;
             margin: 15px;
             text-align: center;     
+
+            flex-direction: column;
+            margin: 15px;
+            text-align: center;
+            max-width: 150px;
+            justify-content: space-around;
+            align-items: center;
+            height: 195px;
+            width: 150px;
+            gap: 10px;
+
+            text-decoration: none;
+            color: inherit;
         }
         img {
             border-radius: 50%;

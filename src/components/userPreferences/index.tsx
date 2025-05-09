@@ -15,13 +15,13 @@ const UserPreferences = () => {
             </section>
             <section className="preferences-list">
             {
-                authors.map(({image, author, subscribers}, index) => {
+                authors.map(({image, author, subscribers, link}, index) => {
                     return (
-                        <div key={index}>
+                        <a key={index} href={link} target="_blank" rel="noopener noreferrer">
                             <img src={image} alt={author} />
                             <span>{author}</span>
                             <span>{subscribers}</span>
-                        </div>
+                        </a>
                     )
                 })
             }

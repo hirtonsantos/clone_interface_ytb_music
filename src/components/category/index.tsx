@@ -5,18 +5,20 @@ import {BsFillPlayCircleFill} from "react-icons/bs"
 interface ListProps {
     categoryList: category[]
     text: string;
+    style?: Object;
 }
 
 interface category {
     img: string;
     title: string;
     artists: string
+    link: string
 }
 
-const Category = ({categoryList, text}: ListProps) => {
+const Category = ({categoryList, text, style = {}}: ListProps) => {
 
   return (
-  <div className="container-category"> 
+  <div className="container-category" style={style}> 
         <span>
             <h1>
                 {text}
@@ -27,13 +29,13 @@ const Category = ({categoryList, text}: ListProps) => {
         {
             categoryList.map((item, index) => {
                 return (
-                    <div key={index}>
+                    <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
                         <img src={item.img} alt="teste" />
                         <span className="title">{item.title}</span>
-                        <span className="artists">{item.artists}</span>
+                        {/* <span className="artists">{item.artists}</span> */}
                         <AiOutlineMore/>
                         <BsFillPlayCircleFill className="play-svg"/>
-                    </div>
+                    </a>
                 )
             })
         }

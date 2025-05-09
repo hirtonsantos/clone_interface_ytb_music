@@ -1,28 +1,36 @@
 export const authors = [
     {
-        image: "https://lh3.googleusercontent.com/dPYuvXIuULSL4ikIUCqIolAhjqO7iDeBT_8EUboaZF3fwH-psXRxCVOtuMVVvtGBHkEYbbA9NgOmISIf=w226-h226-l90-rj",
-        author: "LetoDie",
-        subscribers: "13,4 mil inscritos"
+        image: "https://yt3.googleusercontent.com/ytc/AIdro_ldBQCItIHNWevPDzCbldajXzugSxIVj9KuM2CQx9WFfh0=s160-c-k-c0x00ffffff-no-rj",
+        author: "Padre Paulo Ricardo",
+        subscribers: "2,06 mi inscritos",
+        link: 'https://www.youtube.com/@padrepauloricardo/videos'
     },
     {
-        image: "https://lh3.googleusercontent.com/CbUMyK-y9cYKifJR4JkVaXZix8e6T2ANswHyXFuZzIf4TZgMEu1Der9rVITBWlJOJ30_F99tjgipmQ=w226-h226-p-l90-rj",
-        author: "Gustavvo Lima",
-        subscribers: "18,9 mi inscritos"
+        image: "https://yt3.googleusercontent.com/ytc/AIdro_mpIbyCKdZs57axqDTcmjfCWSM8UZ-gT2F3BVRaAniL90E=s160-c-k-c0x00ffffff-no-rj",
+        author: "Frei Gilson / Som do Monte- OFICIAL",
+        subscribers: "7,61 mi inscritos",
+        link: 'https://www.youtube.com/@FreiGilsonSomdoMonteOFICIAL/videos'
     },
     {
-        image: "https://lh3.googleusercontent.com/K96ofe3ZpXIMOsORqKPRzQjAOACZ9xYX0BuLHwyaghbneGwcD9G4yfJa1OwTdi9WzF-NDpFuol_mIA=w226-h226-p-l90-rj",
-        author: "PapaMike",
-        subscribers: "230 mil inscritos"
+        image: "https://yt3.googleusercontent.com/ytc/AIdro_l9jtAcERHIts0q6LsUtmAGPzQ8p8FzKGAoYRJ1N3Wz3Hs0=s160-c-k-c0x00ffffff-no-rj",
+        author: "Fabio Akita",
+        subscribers: "498 mil inscritos",
+        link: 'https://www.youtube.com/@Akitando/videos'
+    }
+]
+
+export const catolicism = [
+    {
+        img: 'https://i.ytimg.com/vi/LWYlq43gjLs/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBY8PwocA1sfdCRQpzYgSqq9J6atQ',
+        title: 'Catequese Tradicional',
+        artists: 'Centro Dom Bosco',
+        link: 'https://www.youtube.com/playlist?list=PLEuNTNnNBFWhKDxeRe-Q2NaDqBUJzGvCU'
     },
     {
-        image: "https://lh3.googleusercontent.com/LoszpKtgAz3Y-YcYZvNrzqI0MB1f5L8xy5LLDnDYI8tZT0r-4f3EEi63UkO_JcGb8FuHQRAqFQy8KVGx=w226-h226-p-l90-rj",
-        author: "Israel & Rodolffo",
-        subscribers: "2,77 mi inscritos"
-    },
-    {
-        image: "https://lh3.googleusercontent.com/VytfRxPxrogv0UjkVaXH2oPt-HzAsQgRAAd3AUzLxSkb88q8XDoE0yLY6ml9TXPBSIgnkBJhE4jSa4U-=w226-h226-l90-rj",
-        author: "Enygma Rapper",
-        subscribers: "15,3 mil inscritos"
+        img: 'https://i.ytimg.com/vi/NLOow-6TqnI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAHMlOWAqDC5irUV8QEor-X2pmZ_A',
+        title: 'Curso Básico de Teologia',
+        artists: 'RTM Brasil',
+        link: 'https://www.youtube.com/playlist?list=PLaE9hceOTtPBpYxfHyeGqBQn9xmno8MDe'
     }
 ]
 
@@ -102,5 +110,68 @@ export const musicsHistoric = [
         img: "https://lh3.googleusercontent.com/ImXhOeX0nsrO_CV6Jz0B9g_FvhshQbOsqxOvu2OHJvuIrtTyRIlDjUX7t4P_QsZcMSTRz7uK1sDT6yoP=w226-h226-l90-rj",
         title: "Eu sou o cara",
         artists: "Mc Fox e Mc Mãe"
+    }
+]
+
+export const jsCourses = [
+    {
+        img: 'https://i.ytimg.com/pl_c/PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3/studio_square_thumbnail.jpg?sqp=CMCd9cAG-oaymwEICKoDEPABSFqi85f_AwYI9_aGuwY=&rs=AOn4CLDO57uGa3rjfugxBj5Gb-HEaM2iNQ',
+        title: 'JavaScript Projects',
+        artists: '',
+        link: 'https://www.youtube.com/playlist?list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3'
+    }, 
+    {
+        img: 'https://i.ytimg.com/vi/NprFr1SZGg8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBJpoQvwA8d8GuWdm4bH8p_2wmvJg',
+        title: 'Responsive Website Design from Scratch',
+        artists: '',
+        link: 'https://www.youtube.com/playlist?list=PL5e68lK9hEzci2jh7qgXDICUARtZ16Ec4'
+    }
+]
+
+export const javaCourses = [
+    {
+        img: 'https://i.ytimg.com/vi/N3K8PjFOhy4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBnPKPH1R3n7MCY4SkiOvxoxqBwiA',
+        title: 'Curso Estrutura de Dados e Algoritmos Java',
+        artists: '',
+        link: 'https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBrgumpzz-l8kFMw2DLERdxi'
+    }, 
+    {
+        img: 'https://i.ytimg.com/vi/LnORjqZUMIQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDSljUMHoNQS4kPfYUwG7fXaIitkQ',
+        title: 'Curso de Java Básico Gratuito com Certificado',
+        artists: '',
+        link: 'https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r'
+    }
+]
+
+export const pythonCourses = [
+    {
+        img: 'https://i.ytimg.com/vi/C_MExL7930w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAYnA2HyU2JF9Wl32es30c84yB9eA',
+        title: 'Python3 Programming Tutorial Basics To Advance',
+        artists: 'Pythons',
+        link: 'https://www.youtube.com/playlist?list=PL1FgJUcJJ03unFjAgebCy45UHeBfn3cTw'
+    },
+    {
+        img: 'https://i.ytimg.com/vi/6sZWHLqOPGY/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAOAvuxFYWXcB__D2epM23WPQ9SLA',
+        title: 'Python Full Course',
+        artists: 'Pythons',
+        link: 'https://www.youtube.com/playlist?list=PLVHgQku8Z935MPpwy9_qjIwX93FY8lOD0'
+    },
+    {
+        img: 'https://i.ytimg.com/vi/IxdciZSq6Pk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDwETGU8q4NI-KkwMoRxaSe7HVSDQ',
+        title: 'Python',
+        artists: 'Pythons',
+        link: 'https://www.youtube.com/playlist?list=PLVHgQku8Z9374YoPX6dVbPcEr5k4-CfS7'
+    },
+    {
+        img: 'https://i.ytimg.com/vi/BT2cjrxGpWo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCZwWTOgIQruR49W6_sbQpbJshqjA',
+        title: 'Curso Pygame 2020',
+        artists: 'Pythons',
+        link: 'https://www.youtube.com/playlist?list=PLJ8PYFcmwFOxtJS4EZTGEPxMEo4YdbxdQ'
+    },
+    {
+        img: 'https://i.ytimg.com/vi/8ext9G7xspg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDKZGddmB7_97U0NZ5JxAozUVeLbg',
+        title: 'Python',
+        artists: 'Pythons',
+        link: 'https://www.youtube.com/playlist?list=PLFI0bs5yTX_pTi4Q7svGQRRRWDEpjHKd9'
     }
 ]
